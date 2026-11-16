@@ -21,7 +21,7 @@
         "pl": { "type": "string" },
         "ko": { "type": "string" }
       },
-      "required": ["en", "es", "it", "tr", "ru", "zh", "pl", "ko"],
+      "required": ["en"],
       "additionalProperties": { "type": "string" }
     },
     "languageStepsMap": {
@@ -37,7 +37,7 @@
         "pl": { "$ref": "#/$defs/steps" },
         "ko": { "$ref": "#/$defs/steps" }
       },
-      "required": ["en", "es", "it", "tr", "ru", "zh", "pl", "ko"],
+      "required": ["en"],
       "additionalProperties": { "$ref": "#/$defs/steps" }
     },
     "steps": {
